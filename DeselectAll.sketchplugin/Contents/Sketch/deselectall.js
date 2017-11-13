@@ -1,5 +1,3 @@
-
-
 function onRun(context) {
 
     var sketch = context.api();
@@ -8,4 +6,5 @@ function onRun(context) {
 
     selection.clear();
     sketch.message("Deselected all layers");
+    
 };
