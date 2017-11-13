@@ -1,0 +1,17 @@
+{
+    "name" : "Deselect All",
+    "identifier" : "com.mkwng.deselectall",
+    "version" : "1.0",
+    "description" : "Shortcut for deselecting all layers.",
+    "authorEmail" : "hello@mkwng.com",
+    "author" : "Michael Wang",
+    "commands" : [
+    {
+      "script" : "deselectall.js",
+      "handler" : "onRun",
+      "shortcut" : "command shift d",
+      "name" : "Deselect All",
+      "identifier" : "deselectall"
+    }
+  ]
+}
